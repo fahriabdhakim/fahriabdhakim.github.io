@@ -1,3 +1,3 @@
-# Bahamut's Website
+# fahrihakim's Website
 
-https://impactbyte-bahamut.github.io
+https://fahrihakim.github.io
