@@ -1,3 +1,3 @@
 # fahrihakim's Website
 
-https://fahrihakim.github.io
+https://fahriabdhakim.github.io/
