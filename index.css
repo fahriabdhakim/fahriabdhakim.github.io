@@ -1,7 +1,75 @@
-h1 {
-  color: green;
+html {
+  background: url("./images/kucing.jpeg");
+  background-size: cover;
 }
 
-.logo {
-  height: 100px
+.page-wrap {
+  padding-top: 100px;
+}
+
+.background {
+  color: black;
+  text-align: center;
+  border: 2px solid black;
+  margin: auto 400px 10px 400px;
+}
+
+.transbox {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+}
+
+li {
+  display: inline;
+}
+
+.Photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+  margin-bottom: 2opx;
+}
+
+.content {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  length: 300px;
+}
+
+.fa {
+  color: black;
+  padding: 20px;
+  font-size: width: auto;
+  justify-content: center;
+  border-radius: 50px;
+  border: 7px solid rgba(0, 0, 0, 0.0);
+}
+
+.fa:hover {
+  color: white;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
 }
