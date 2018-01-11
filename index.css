@@ -60,20 +60,6 @@ li {
   length: 300px;
 }
 
-.fa {
-  color: black;
-  padding: 20px;
-  font-size: width: auto;
-  justify-content: center;
-  border-radius: 50px;
-  border: 7px solid rgba(0, 0, 0, 0.0);
-}
-
-.fa:hover {
-  color: white;
-  border: 7px solid rgba(0, 0, 0, 0.1);
-}
-
 .contact {
   text-align: center;
   font-family: 'Pacifico', cursive;
@@ -97,6 +83,21 @@ li {
   text-align: center;
   position: relative;
   padding-top: 100px;
+}
+
+.fa {
+  color: black;
+  padding: 20px;
+  font-size: width: auto;
+  justify-content: center;
+  border-radius: 50px;
+  border: 7px solid rgba(0, 0, 0, 0.0);
+}
+
+.fa:hover {
+  color: white;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+  background: black;
 }
 
 /* contact form */
