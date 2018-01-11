@@ -76,14 +76,18 @@ li {
 
 /* contact form */
 
+.cf-title {
+  text-align: center;
+}
+
 input[type=textarea], select, textarea {
-  width: 50%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   resize: vertical;
 }
 
@@ -96,14 +100,23 @@ input[type:submit] {
   cursor: pointer;
 }
 
-input[type:submit]: hover {
+input[type:submit] {
   background-color: #45a049;
 }
 
+label {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .container {
-  justify-content: center;
+  margin: 0 auto;
   width: 50%;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.group {
+  margin: 10px 0px;
 }
