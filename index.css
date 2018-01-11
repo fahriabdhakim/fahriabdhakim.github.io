@@ -46,8 +46,8 @@ li {
 }
 
 .content {
+  text-align: justify;
   margin: auto;
-  text-align: center;
   width: 300px;
   length: 300px;
 }
