@@ -11,10 +11,17 @@ html {
   color: black;
   text-align: center;
   border: 2px solid black;
-  margin: auto 400px 10px 400px;
+  width: 300px;
+  margin: auto;
+  min-width: 400px;
+  margin-bottom: 30px;
 }
 
 .transbox {
+  ￼/* margin: auto 400px 10px 400px; */
+  ￼ width: 300px;
+  ￼ margin: auto;
+  ￼ min-width: 400px;
   background-color: #ffffff;
   border: 1px solid black;
   opacity: 0.7;
@@ -36,6 +43,7 @@ li {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  border: 3px solid black;
 }
 
 .title {
@@ -64,6 +72,23 @@ li {
 .fa:hover {
   color: white;
   border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  padding-top: 75px;
+  color: black;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: blue;
 }
 
 .icon {
