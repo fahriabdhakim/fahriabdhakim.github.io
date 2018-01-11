@@ -78,6 +78,7 @@ li {
 
 .cf-title {
   text-align: center;
+  font-family: 'Pacifico', cursive;
 }
 
 input[type=textarea], select, textarea {
@@ -119,4 +120,8 @@ label {
 
 .group {
   margin: 10px 0px;
+}
+
+form input {
+  width: 100%;
 }
